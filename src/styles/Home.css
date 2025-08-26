@@ -1,0 +1,24 @@
+.mainDiv{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 60px;
+  box-sizing: border-box;
+}
+
+
+.tituloGeneral{
+  font-size: 3rem;
+}
+
+
+.padreTarjetas{
+  width: 100%;
+  height: auto;
+  border-bottom: box-sizing;
+  padding: 60px 60px;
+}
+
