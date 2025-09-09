@@ -14,7 +14,6 @@ function Cards(props) {
           </div>
           <div className="moduloBoton">
             <div className="logo"> { <img className="logoTema" src={ props.logoTema } />  }</div>
-            <div className="nombre"> <h3> { props.numModulo } </h3> </div>
             <div className="boton"> <h4>Ver resumen </h4> </div>
           </div>
         </div> 

@@ -10,9 +10,9 @@
   border-radius: 8px;
   padding: 7px;
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.10); */
-  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.25),  /* Sombra superior más visible */
-            0 10px 20px rgba(0, 0, 0, 0.25), /* Sombra principal inferior */
-            0 5px 5px rgba(0, 0, 0, 0.10);  /* Sombra secundaria inferior */
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.14),  /* Sombra superior más visible */
+            0 10px 20px rgba(0, 0, 0, 0.14), /* Sombra principal inferior */
+            0 5px 5px rgba(0, 0, 0, 0.08);  /* Sombra secundaria inferior */
 }
 
 .Dot{
@@ -38,7 +38,7 @@
   height: 20%;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: #313841;
 }
@@ -52,7 +52,7 @@
 }
 
 .logoTema{
-  height: 60%;
+  height: 70%;
 }
 
 .boton{
