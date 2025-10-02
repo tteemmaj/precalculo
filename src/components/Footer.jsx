@@ -19,7 +19,7 @@ function Footer() {
             </thead>
             <tbody>
               <tr>
-                <td>Celda Jeser Aziel Fuentes Pérez</td>
+                <td>Jeser Aziel Fuentes Pérez</td>
                 <td>0903-25-21440</td>
               </tr>
               <tr>

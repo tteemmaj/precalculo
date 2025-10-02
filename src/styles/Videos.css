@@ -1,0 +1,14 @@
+.videosContenedor{
+  position: relative;
+  padding-top: 56.5%;
+  margin: 25px 0 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videosFrame{
+  position: absolute;
+  top: 0;
+  left: 0;
+}

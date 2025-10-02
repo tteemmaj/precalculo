@@ -28,7 +28,7 @@ function Home() {
             logoTema = { funLogo }
           />
           <Cards 
-            link ="/moduloI" 
+            link ="/moduloIII" 
             tema1 = "Funciones polimoniales y números complejos"
             tema2 = "Trigonometría y ángulos"
             tema3 = "Ley de senos y cosenos"

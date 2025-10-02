@@ -10,9 +10,11 @@
   border-radius: 8px;
   padding: 7px;
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.10); */
-  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.14),  /* Sombra superior más visible */
-            0 10px 20px rgba(0, 0, 0, 0.14), /* Sombra principal inferior */
-            0 5px 5px rgba(0, 0, 0, 0.08);  /* Sombra secundaria inferior */
+  /*box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.14),  /* Sombra superior más visible */
+            /*0 10px 20px rgba(0, 0, 0, 0.14), /* Sombra principal inferior */
+            /*0 5px 5px rgba(0, 0, 0, 0.08);  /* Sombra secundaria inferior */
+  
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 .Dot{

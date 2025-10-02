@@ -1,0 +1,16 @@
+.divTitles{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: #EA9216;
+  border-bottom: rgba(0, 0, 0, 0.08) 0px 0px 1px 1px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+
+.divTitles > img {
+  height: 70%;
+  padding-right: 15px;
+}
