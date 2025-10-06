@@ -8,7 +8,7 @@ function Notes(props) {
       <div className="formsDiv">
         <h3>  { props.tituloFormula } </h3>
         <MathJaxContext>
-              <MathJax>{ props.formulasMath }</MathJax>
+          <MathJax>{ props.formulasMath }</MathJax>
         </MathJaxContext>
       </div>
     </div>

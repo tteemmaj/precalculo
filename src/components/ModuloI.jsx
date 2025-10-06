@@ -50,6 +50,21 @@ function ModuloI() {
             tituloFormula="Propiedades Conmutativas"
             formulasMath={`\\( a + b = b + a \\\\ ab = ba \\)`}
           />
+          <Notas 
+            tituloFormula="Asociativas"
+            formulasMath={`\\( (a + b) + c = a + (b + c)  \\)`}
+  
+          />
+          <Notas 
+            tituloFormula="Distributivas"
+            formulasMath={`\\( a (b + c) = ab + ac \\)`}
+  
+          />
+          <h3>Ejemplo:</h3>
+          <Videos 
+            linkVideos="https://youtu.be/xDmb610okx0?list=RDxDmb610okx0"
+          />
+
         </div>
       </div>
     </>
