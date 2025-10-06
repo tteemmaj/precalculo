@@ -5,6 +5,7 @@
   overflow: hidden;
   width: 100%;
   box-sizing: border-box;
+  
 }
 
 .barDiv {
@@ -16,6 +17,8 @@
   position: sticky;
   top: 10px;
   box-sizing: border-box;
+  overscroll-behavior-y: none;
+  
 }
 
 .contenidosDiv{
@@ -27,8 +30,11 @@
 
   scrollbar-width: none;
   -ms-overflow-style: none;
+  overscroll-behavior-y: none;
+  
 }
 
 .contenidosDiv::-webkit-scrollbar{
   display: none;
+  overscroll-behavior-y: none;
 }

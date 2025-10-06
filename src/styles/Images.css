@@ -13,8 +13,36 @@
 }
 
 
-.imagenDiv > img {
+/* .imagenDiv > img {
+  width: auto;
   height: 100%;
   border-radius: 14px;
 
+}
+  */
+
+.padreImg{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.padreImg > img {
+  width: 90%;
+  height: 70%;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .padreImg{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .padreImg{
+    width: 90%;
+  }
 }

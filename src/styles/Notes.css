@@ -1,0 +1,34 @@
+.mainFormsDiv{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 14px 0 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.formsDiv{
+  width: auto;
+  height: 100%;
+  background-color: #EA9216;
+  color: #EEEEEE;
+  box-sizing: border-box;
+  padding: 40px;
+  gap: 14px;
+  position: relative;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+
+.formsDiv::before{
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: #FFD700;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

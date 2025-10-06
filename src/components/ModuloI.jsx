@@ -4,6 +4,8 @@ import Titles from "../components/Titles.jsx"
 import Parrafos from "../components/Parrafos.jsx"
 import Images from "../components/Images.jsx"
 import Videos from "../components/Videos.jsx"
+import Notas from "../components/Notes.jsx"
+import { MathJaxContext, MathJax } from "better-react-mathjax"
 
 function ModuloI() {
   return(
@@ -14,22 +16,40 @@ function ModuloI() {
       </div>
         <div className="contenidosDiv">
           <Titles 
-            titulo= "Desigualdades"
+            titulo="Números Reales"
           />
-          <Parrafos 
-            parrafo ="Una inecuación es una desigualdad algebraica que involucra una o más incógnitas (letras) y se expresa mediante los signos . Para resolver una inecuación, se busca encontrar todos los valores de la incógnita que hacen que la desigualdad sea verdadera, y estas soluciones pueden expresarse en forma de conjunto, intervalo o representación gráfica. "
-          />
-          <Images />
+          <p>Los tipos números que conforman el sistema de números reales:</p>
+          <b>Números Naturales: </b> <p style={{ textAlign: 'center' }} >1, 2, 3, 4, ...</p>
+          <b>Enteros: </b> <p style={{ textAlign: 'center' }} >..., -3, -2, -1, 0, 1, 2, 3, 4, ...</p>
+          <b>Números Racionales: </b> <p> Los Números racionales se construyen al tomar razones de enteros:</p><p style={{ textAlign: 'center',fontSize: '1.5em' }} >
+            <MathJaxContext>
+              <MathJax>{ `\\( r = \\frac{m}{n} \\) ` }</MathJax>
+            </MathJaxContext>
+          </p>
+          <p>Donde m y n no son enteros y n no es igual a 0</p>
+          <b>Números Irracionales:</b>
+          <p>Números que no se pueden expresar como una razón entre enteros. Ejemplos:</p>
+          <p style={{ marginLeft: '25px' }} >
+            <MathJaxContext>
+              <MathJax>{ `\\[ \\sqrt{3}, \\quad \\sqrt{5}, \\quad \\sqrt[3]{2}, \\quad \\pi, \\quad \\frac{3}{\\pi^2} \\]` }</MathJax>
+            </MathJaxContext>
+          </p>
           <Titles 
-            titulo="Inecuaciones"
+            titulo="Propiedades de los Númereso Reales"
           />
-
-          <Parrafos 
-            parrafo="El lorem ipsum es un texto de relleno que se usa en el diseño gráfico, la maquetación y la impresión. Su propósito es simular la apariencia de un texto real en un documento para que los diseñadores y maquetadores puedan centrarse en el diseño, la tipografía y la estructura sin distraerse con el contenido legible. El texto en sí no tiene sentido; se deriva de una obra de Cicerón y ha sido alterado a lo largo del tiempo. Al no tener un significado, el lorem ipsum evita que el cliente o el revisor se enfoquen en el contenido en lugar del diseño. Es una herramienta muy útil para crear prototipos de sitios web, folletos, revistas o cualquier otro material impreso. "
+          <b>Propiedad Conmutativa:</b>
+          <p>Cuando sumamos dos números, el orden de Adición no importa</p>
+          <p style={{ textAlign: 'center',fontSize: '1.5em' }} >
+            <MathJaxContext>
+              <MathJax inline>
+                { `\\( a + b = b + a \\)` }
+            </MathJax>
+            </MathJaxContext>
+          </p>
+          <Notas 
+            tituloFormula="Propiedades Conmutativas"
+            formulasMath={`\\( a + b = b + a \\\\ ab = ba \\)`}
           />
-    
-          <Videos />
-
         </div>
       </div>
     </>

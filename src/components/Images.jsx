@@ -3,7 +3,9 @@ import Ejemplo from "../assets/ejemplo.jpg"
 function Images() {
   return(
     <div className="imagenDiv">
-      <img src={ Ejemplo } />
+      <div className="padreImg">
+        <img src={ Ejemplo } />
+      </div>
     </div>
   );
 }
