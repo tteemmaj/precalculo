@@ -7,9 +7,11 @@ function Notes(props) {
     <div className="mainFormsDiv">
       <div className="formsDiv">
         <h3>  { props.tituloFormula } </h3>
-        <MathJaxContext>
-          <MathJax>{ props.formulasMath }</MathJax>
-        </MathJaxContext>
+        <p className="formulasTexto">
+          <MathJaxContext>
+            <MathJax>{ props.formulasMath }</MathJax>
+          </MathJaxContext>
+        </p>
       </div>
     </div>
   );
