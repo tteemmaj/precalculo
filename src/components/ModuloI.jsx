@@ -17,7 +17,7 @@ function ModuloI() {
         <div className="contenidosDiv">
           //Sección 1.1
           ------------------------------------------------------------------------------------------------------------
-          <Titles titulo="Números Reales" />
+          <Titles titulo="Números Reales" idTitulo="numeros-reales" />
           <p>Los tipos números que conforman el sistema de números reales:</p>
           <b>Números Naturales: </b>{" "}
           <p style={{ textAlign: "center" }}>1, 2, 3, 4, ...</p>
@@ -50,7 +50,10 @@ function ModuloI() {
               </MathJax>
             </MathJaxContext>
           </p>
-          <Titles titulo="Propiedades de los Númereso Reales" />
+          <Titles
+            titulo="Propiedades de los Númereso Reales"
+            idTitulo="propiedades-reales"
+          />
           <b>Propiedad Conmutativa:</b>
           <p>
             Todos sabemos que 2,3,3,2 y 5,7,7,5, y 5, 13,8,87,513, etc. En
@@ -67,8 +70,11 @@ function ModuloI() {
           <Notas tituloFormula="Asociativas" />
           <Notas tituloFormula="Distributivas" />
           <h3>📘 Ejemplo: Propiedades de los Números Reales</h3>
-          <Videos linkVideos="https://youtu.be/xDmb610okx0?list=RDxDmb610okx0" />
-          <Titles titulo="Adición y sustracción" />
+          <Videos linkVideos="https://youtu.be/m1I4sFDMwzg" />
+          <Titles
+            titulo="Adición y sustracción"
+            idTitulo="adicion-sustraccion"
+          />
           <p>
             El número 0 es especial para la adición; recibe el nombre de
             identidad aditiva porque a+0= a para cualquier número real a. Todo
@@ -112,8 +118,11 @@ function ModuloI() {
           <p>Restar es sumar el opuesto.</p>
           <Notas formulasMath={`$$ (-7) - (-3) = (-7) + (3) = -4 $$`} />
           <h3>📘 Ejemplo:Adición y sustracción</h3>
-          <Videos linkVideos="https://youtu.be/XkuxGHy_1co" />
-          <Titles titulo="Multiplicación y división" />
+          <Videos linkVideos="https://youtube.com/shorts/UDVyBsnycrg" />
+          <Titles
+            titulo="Multiplicación y división"
+            idTitulo="multiplicacion-division"
+          />
           <p>
             El número 1 es especial para la multiplicación; recibe el nombre de
             identidad multiplicativa porque a 1 a para cualquier número real a.
@@ -185,8 +194,8 @@ function ModuloI() {
             }
           />
           <h3>📘 Ejemplo: Multiplicación y división</h3>
-          <Videos linkVideos="https://youtu.be/XkuxGHy_1co" />
-          <Titles titulo="La recta real" />
+          <Videos linkVideos="https://youtube.com/shorts/4Y5_-l8D_E0" />
+          <Titles titulo="La recta real" idTitulo="recta-real" />
           <p>
             Los números reales se representan con puntos sobre una recta,
             llamada recta real o recta coordenada.El origen (O) corresponde al
@@ -226,7 +235,10 @@ function ModuloI() {
           </p>
           <h3>📘 Ejemplo: La recta real</h3>
           <Videos linkVideos="https://youtu.be/XkuxGHy_1co" />
-          <Titles titulo="" />
+          <Titles
+            titulo="Intervalos en la recta real"
+            idTitulo="intervalos-recta-real"
+          />
           <p>
             Un conjunto es una colección de objetos, llamados elementos. Si un
             elemento pertenece a un conjunto se escribe: a ∈ S Si un elemento no
@@ -249,8 +261,8 @@ function ModuloI() {
           <b>5️⃣Intervalos infinitos</b>
           <Notas formulasMath={" [ a, ∞)  = { x ∈ ℝ | x ≥ a }  "} />
           <h3>📘 Ejemplo: Conjuntos e intervalos</h3>
-          <Videos linkVideos="https://youtu.be/XkuxGHy_1co" />
-          <Titles titulo="Valor absoluto " />
+          <Videos linkVideos="https://youtube.com/shorts/4Y5_-l8D_E0" />
+          <Titles titulo="Valor absoluto" idTitulo="valor-absoluto" />
           <p>
             El valor absoluto de un número real a, representado como |a|, es la
             distancia entre a y 0 en la recta numérica. Esa distancia siempre es
@@ -265,10 +277,68 @@ function ModuloI() {
           <b>3️⃣ Propiedad del cociente: </b>
           <Notas formulasMath={" (|a ÷ b| = |a| ÷ |b| (con b ≠ 0)"} />
           <h3>📘 Ejemplo: Valor absoluto</h3>
-          <Videos linkVideos="https://youtu.be/XkuxGHy_1co" />
-          //Sección 1.2 //Sección 1.3
+          <Videos linkVideos="https://youtu.be/AwXIzQGXFSU" />
+          // Sección 1.2
+          ___________________________________________________________________________
+          <Titles
+            titulo="Exponentes y radicales"
+            idTitulo="exponentes-radicales"
+          />
+          <p>
+            Los exponentes y radicales son operaciones inversas entre sí. Un
+            exponente indica cuántas veces se multiplica un número por sí mismo,
+            mientras que un radical representa la raíz o el valor que, elevado a
+            un exponente dado, produce el número original.
+          </p>
+          <Notas
+            formulasMath={`$$ a^m \\cdot a^n = a^{m+n} \\quad \\text{y} \\quad \\sqrt[n]{a} = a^{1/n} $$`}
+          />
+          <p>
+            Las propiedades de los exponentes permiten simplificar expresiones
+            algebraicas y resolver ecuaciones más fácilmente. Los radicales, por
+            otro lado, son útiles para expresar números no exactos y operaciones
+            inversas a las potencias.
+          </p>
+          <br />
+          <b>📘 Ejemplo de exponentes:</b>
+          <p>
+            Simplificar:{" "}
+            <MathJaxContext>
+              <MathJax inline>{`$$ 2^3 \\cdot 2^4 = 2^{3+4} = 2^7 $$`}</MathJax>
+            </MathJaxContext>
+          </p>
+          <p>
+            Resultado:{" "}
+            <MathJaxContext>
+              <MathJax inline>{`$$ 2^{3+4} = 2^7 = 128 $$`}</MathJax>
+            </MathJaxContext>
+          </p>
+          <b>📘 Ejemplo de radicales:</b>
+          <p>
+            Calcular:{" "}
+            <MathJaxContext>
+              <MathJax inline>{`$$ \\sqrt[3]{27} $$`}</MathJax>
+            </MathJaxContext>
+          </p>
+          <p>
+            <MathJaxContext>
+              <MathJax
+                inline
+              >{`$$ \\text{Como } 27 = 3^3, \\text{ entonces: } \\sqrt[3]{27} = 3 $$`}</MathJax>
+            </MathJaxContext>
+          </p>
+          <br />
+          <br />
+          <p style={{ marginTop: "0.5em", fontWeight: "bold" }}>
+            Explicación audiovisual:
+          </p>
+          <Videos linkVideos="https://youtu.be/I2OMvaZzqmM" />
+          //Sección 1.3
           ------------------------------------------------------------------------------------------------------------
-          <Titles titulo="EXPRESIONES ALGEBRAICAS" />
+          <Titles
+            titulo="Expresiones Algebraicas"
+            idTitulo="expresiones-algebraicas"
+          />
           <p>
             {" "}
             Una variable es una letra que puede representar cualquier número
@@ -287,7 +357,10 @@ function ModuloI() {
           <MathJaxContext>
             <MathJax inline>{`$$ 2x^2 - 3x + 4 $$`}</MathJax>
           </MathJaxContext>
-          <Titles titulo="Suma y resta de polinomios" />
+          <Titles
+            titulo="Suma y resta de polinomios"
+            idTitulo="suma-resta-polinomios"
+          />
           <p>
             Sumamos y restamos polinomios usando las propiedades de números
             reales que. La idea es combinar términos semejantes (esto es,
@@ -297,7 +370,10 @@ function ModuloI() {
           <MathJaxContext>
             <MathJax inline>{`$$ 5x^7 + 3x^7 = (5 + 3)x^7 = 8x^7 $$`}</MathJax>
           </MathJaxContext>
-          <Titles titulo="Multiplicación de expresiones algebraicas" />
+          <Titles
+            titulo="Multiplicación de expresiones algebraicas"
+            idTitulo="multiplicacion-expresiones"
+          />
           <p>
             Para hallar el producto de polinomios o de otras expresiones
             algebraicas, es necesario usar repetidamente la Propiedad
@@ -309,8 +385,10 @@ function ModuloI() {
               inline
             >{`$$ (a + b)(c + d) = ac + ad + bc + bd $$`}</MathJax>
           </MathJaxContext>
-          <Titles titulo="Fórmulas de productos notables" />
-          <Titles titulo="Factorización de factores comunes" />
+          <Titles
+            titulo="Factorización de factores comunes"
+            idTitulo="factorizacion-comunes"
+          />
           <p>
             Usamos la Propiedad Distributiva para expandir expresiones
             algebraicas. A veces necesitamos invertir este proceso (de nuevo
@@ -326,7 +404,10 @@ function ModuloI() {
           <Videos linkVideos="https://youtu.be/fCJ1v8aEKUc" />
           //Sección 1.4
           ------------------------------------------------------------------------------------------------------------
-          <Titles titulo="Expresiones Racionales" />
+          <Titles
+            titulo="Expresiones Racionales"
+            idTitulo="expresiones-racionales"
+          />
           <p>
             Una expresión racional es, simplemente, una fracción donde tanto la
             parte de arriba (el numerador) como la de abajo (el denominador) son
@@ -337,7 +418,10 @@ function ModuloI() {
               style={{ fontSize: "1.3em" }}
             >{`$$ \\frac{x^3 - x}{x^2 - 5x + 6} $$`}</MathJax>
           </MathJaxContext>
-          <Titles titulo="Dominio de una expresión algebraica" />
+          <Titles
+            titulo="Dominio de una expresión algebraica"
+            idTitulo="dominio-expresion"
+          />
           <p>
             El dominio de una expresión algebraica constituye el conjunto
             completo de números reales que la variable puede admitir sin que se
@@ -345,7 +429,10 @@ function ModuloI() {
             numérico. Ejemplo:
           </p>
           <Videos linkVideos="https://youtu.be/Hld_wwk496k" />
-          <Titles titulo="Simplificación de expresiones racionales" />
+          <Titles
+            titulo="Simplificación de expresiones racionales"
+            idTitulo="simplificacion-racionales"
+          />
           <p>
             La simplificación de una expresión racional requiere, como paso
             esencial, la factorización completa del numerador y del denominador.
@@ -357,7 +444,10 @@ function ModuloI() {
           <Notas formulasMath={`$$ \\frac{AC}{BC} = \\frac{A}{B} $$`} />
           <b>Ejemplo:</b>
           <Videos linkVideos="https://youtu.be/RvxUjXPFv6g" />
-          <Titles titulo="Multiplicación y división de expresiones racionales" />
+          <Titles
+            titulo="Multiplicación y división de expresiones racionales"
+            idTitulo="mult-div-racionales"
+          />
           <p>
             Para multiplicar dos fracciones multiplicamos sus numeradores y
             multiplicamos sus denominadores.
@@ -374,7 +464,10 @@ function ModuloI() {
           />
           <b>Ejemplo:</b>
           <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
-          <Titles titulo="Suma y resta de expresiones racionales" />
+          <Titles
+            titulo="Suma y resta de expresiones racionales"
+            idTitulo="suma-resta-racionales"
+          />
           <p>
             Primero encontramos un denominador común y a continuación usamos la
             siguiente propiedad de fracciones.
@@ -384,14 +477,20 @@ function ModuloI() {
           />
           <b>Ejemplo:</b>
           <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
-          <Titles titulo="Fracciones compuestas" />
+          <Titles
+            titulo="Fracciones compuestas"
+            idTitulo="fracciones-compuestas"
+          />
           <p>
             Es una fracción en la que el numerador, el denominador, o ambos, son
             expresiones fraccionarias
           </p>
           <b>Ejemplo:</b>
           <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
-          <Titles titulo="Racionalizaciòn del denominador o el numerador" />
+          <Titles
+            titulo="Racionalizaciòn del denominador o el numerador"
+            idTitulo="racionalizacion"
+          />
           <p>
             Si el denominador de una fracción es una suma de dos términos, donde
             uno de ellos incluye una raíz cuadrada (por ejemplo, tiene la forma
@@ -412,6 +511,161 @@ function ModuloI() {
           </MathJaxContext>
           <b>Ejemplo:</b>
           <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
+          // sección 1.5
+          ________________________________________________________________________________
+          <Titles titulo="¿Qué es una ecuación?" idTitulo="que-es-ecuacion" />
+          <Parrafos parrafo="Una ecuación es una igualdad matemática que contiene una o más variables (también llamadas incógnitas), y cuyo objetivo principal es encontrar el valor o los valores que hacen verdadera dicha igualdad. Ambos lados de la ecuación están separados por un signo igual (=) y deben tener el mismo valor una vez que se resuelven." />
+          <Parrafos parrafo="Resolver una ecuación significa encontrar el valor de la variable que satisface esa igualdad." />
+          <Titles
+            titulo=" Ecuaciones Lineales"
+            idTitulo="ecuaciones-lineales"
+          />
+          <b>Definición</b>
+          <Parrafos parrafo="Una ecuación lineal es aquella en la que la variable aparece con exponente uno y no se multiplica por sí misma ni aparece en el denominador. Representa una relación de tipo lineal entre los términos, es decir, su gráfica es una línea recta." />
+          <b>Características</b>
+          <Parrafos parrafo="Su estructura general es:" />
+          <MathJaxContext>
+            <MathJax>
+              {"\\[ ax + b = c \\quad \\text{donde } a \\neq 0 \\]"}
+            </MathJax>
+          </MathJaxContext>
+          <Parrafos parrafo="• Solo tiene una solución en la mayoría de los casos." />
+          <Parrafos parrafo="• Las operaciones realizadas para resolverla deben mantener el equilibrio de la igualdad." />
+          <b>Método de resolución:</b>
+          <Parrafos parrafo="Se basa en despejar la variable aplicando operaciones inversas: sumar, restar, multiplicar o dividir ambos lados por el mismo número (excepto cero). El objetivo es aislar la variable y encontrar su valor." />
+          <Titles
+            titulo="Ecuaciones Cuadráticas"
+            idTitulo="ecuaciones-cuadraticas"
+          />
+          <b>Definición</b>
+          <Parrafos parrafo="Una ecuación cuadrática es aquella en la que la variable aparece elevada al cuadrado, es decir, con exponente dos. Representa una relación no lineal, y su gráfica es una parábola." />
+          <b>Características:</b>
+          <Parrafos parrafo="Su forma general es:" />
+          <MathJaxContext>
+            <MathJax>
+              {"\\[ ax^2 + bx + c = 0 \\quad \\text{donde } a \\neq 0 \\]"}
+            </MathJax>
+          </MathJaxContext>
+          <Parrafos parrafo="• Puede tener dos soluciones, una sola o ninguna en los números reales, dependiendo del discriminante." />
+          <b>Métodos de resolución</b>
+          <Parrafos parrafo="• Factorización: se reescribe la ecuación como el producto de dos binomios y se aplica la propiedad del producto cero." />
+          <Parrafos parrafo="• Raíz cuadrada directa: se usa cuando la ecuación no tiene término lineal y se puede aislar el cuadrado." />
+          <Parrafos parrafo="• Completar el cuadrado: se transforma la ecuación en un trinomio cuadrado perfecto." />
+          <Parrafos parrafo="• Fórmula general: se aplica la fórmula que resuelve cualquier cuadrática:" />
+          <MathJaxContext>
+            <MathJax>
+              {"\\[ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\]"}
+            </MathJax>
+          </MathJaxContext>
+          <Titles
+            titulo="El determinante"
+            size="small"
+            idTitulo="determinante"
+          />
+          <Parrafos parrafo="El discriminante es el valor que aparece dentro de la raíz cuadrada en la fórmula general:" />
+          <MathJaxContext>
+            <MathJax>{"\\[ \\Delta = b^2 - 4ac \\]"}</MathJax>
+          </MathJaxContext>
+          <Parrafos parrafo="Sirve para determinar el tipo de soluciones:" />
+          <MathJaxContext>
+            <MathJax>
+              {
+                "$$ \\text{Si } \\Delta > 0, \\text{ hay dos soluciones reales distintas.} $$"
+              }
+            </MathJax>
+          </MathJaxContext>
+          <Videos linkVideos="https://youtu.be/9xEb4KgHEgU" />
+          // 1.6
+          _________________________________________________________________________________
+          <Titles
+            titulo="Modelado con Ecuaciones"
+            idTitulo="modelado-ecuaciones"
+          />
+          <p id="modelado-ecuaciones">
+            El modelado con ecuaciones consiste en representar situaciones del
+            mundo real mediante expresiones matemáticas que describen relaciones
+            entre variables. Una ecuación es una igualdad que contiene una o más
+            variables, y resolverla implica encontrar los valores de las
+            variables que hacen que la igualdad sea cierta. Este proceso es útil
+            en ciencias, ingeniería, economía y otras áreas para resolver
+            problemas prácticos.
+          </p>
+          <b>Pasos para modelar con ecuaciones:</b>
+          <p>
+            <b>1. Identificar las variables:</b> Determina las cantidades
+            desconocidas y asígnales variables (por ejemplo, x para distancia, t
+            para tiempo).
+            <br />
+            <b>2. Establecer relaciones:</b> Usa la información del problema
+            para escribir ecuaciones que relacionen las variables.
+            <br />
+            <b>3. Resolver la ecuación:</b> Aplica técnicas algebraicas para
+            encontrar los valores de las variables.
+            <br />
+            <b>4. Verificar la solución:</b> Comprueba que la solución tenga
+            sentido en el contexto del problema.
+          </p>
+          <b>Ejemplo 1: Problema de distancia</b>
+          <p>
+            Un automóvil viaja a una velocidad constante de 60 km/h. ¿Cuánto
+            tiempo (t) tarda en recorrer 180 km? La fórmula de la distancia es:
+          </p>
+          <MathJaxContext>
+            <MathJax
+              style={{ fontSize: "1.3em" }}
+            >{`$$ d = v \\cdot t $$`}</MathJax>
+          </MathJaxContext>
+          <p>
+            Sustituyendo los valores conocidos: <br />
+            <MathJaxContext>
+              <MathJax
+                style={{ fontSize: "1.3em" }}
+              >{`$$ 180 = 60 \\cdot t $$`}</MathJax>
+            </MathJaxContext>
+            Dividiendo ambos lados entre 60: <br />
+            <MathJaxContext>
+              <MathJax
+                style={{ fontSize: "1.3em" }}
+              >{`$$ t = \\frac{180}{60} = 3 \\text{ horas} $$`}</MathJax>
+            </MathJaxContext>
+          </p>
+          <b>Ejemplo 2: Problema de costos</b>
+          <p>
+            Una tienda vende camisetas a $20 cada una, y tiene un costo fijo de
+            $100 por día. Si se venden x camisetas, el ingreso total es:
+          </p>
+          <MathJaxContext>
+            <MathJax style={{ fontSize: "1.3em" }}>{`$$ I = 20x $$`}</MathJax>
+          </MathJaxContext>
+          <p>
+            El costo total es: <br />
+            <MathJaxContext>
+              <MathJax
+                style={{ fontSize: "1.3em" }}
+              >{`$$ C = 100 + 10x $$`}</MathJax>
+            </MathJaxContext>
+            Para encontrar el punto de equilibrio (donde ingreso iguala costo):{" "}
+            <br />
+            <MathJaxContext>
+              <MathJax
+                style={{ fontSize: "1.3em" }}
+              >{`$$ 20x = 100 + 10x $$`}</MathJax>
+            </MathJaxContext>
+            Restando 10x de ambos lados: <br />
+            <MathJaxContext>
+              <MathJax
+                style={{ fontSize: "1.3em" }}
+              >{`$$ 10x = 100 $$`}</MathJax>
+            </MathJaxContext>
+            Dividiendo entre 10: <br />
+            <MathJaxContext>
+              <MathJax
+                style={{ fontSize: "1.3em" }}
+              >{`$$ x = 10 \\text{ camisetas} $$`}</MathJax>
+            </MathJaxContext>
+          </p>
+          <h3>📘 Ejemplo: Modelado con ecuaciones</h3>
+          <Videos linkVideos="https://youtu.be/qqdaQlGZg8o" />
         </div>
       </div>
     </>
