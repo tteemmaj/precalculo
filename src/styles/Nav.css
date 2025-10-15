@@ -55,6 +55,10 @@ a {
     transform 0.3s ease-in-out;
 }
 
+.font-weight-nav{
+  font-weight: bold;
+}
+
 .divDer>ul>li:hover {
   background-color: #eeeeee;
   color: #313841;

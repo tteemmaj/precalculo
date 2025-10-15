@@ -14,9 +14,7 @@ function ModuloI() {
           <SideBarModII />
         </div>
         <div className="contenidosDiv">
-          /* Sección 1.7
-          ------------------------------------------------------------------------
-          */
+          {/*  1.7 _______________________________________________________________________________________ */}
           <Titles titulo="Desigualdades" idTitulo="desigualdades" />
           <p>
             En álgebra, una desigualdad es una expresión matemática que compara
@@ -78,9 +76,7 @@ function ModuloI() {
           />
           <h3>Ejemplo: Solución de desigualdades no lineales.</h3>
           <Videos linkVideos="https://youtu.be/O75Nsbws_CQ?si=L6_eQHsStQpDo6E5" />
-          /* Sección 1.8
-          ------------------------------------------------------------------------
-          */
+          {/*  1.8 _______________________________________________________________________________________ */}
           <Titles
             titulo="Geometría de coordenadas "
             idTitulo="geometria-coordenadas"
@@ -142,8 +138,7 @@ function ModuloI() {
             formulasMath={" $$ (x - h)^2 + (y - k)^2 = r^2 $$ "}
           />
           <Videos linkVideos="https://youtu.be/htqy_UCWZTk" />
-          /* 1.10
-          _________________________________________________________________ */
+          {/*  1.10 _______________________________________________________________________________________ */}
           <Titles titulo="La recta" idTitulo="la-recta" />
           <Parrafos parrafo="Una recta es una figura geométrica que se extiende infinitamente en ambas direcciones y representa una relación lineal entre dos variables. En el plano cartesiano, se representa mediante una ecuación de primer grado." />
           <Titles titulo="Pendiente de una recta" idTitulo="pendiente-recta" />

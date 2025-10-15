@@ -15,8 +15,7 @@ function ModuloI() {
           <SideBar />
         </div>
         <div className="contenidosDiv">
-          //Sección 1.1
-          ------------------------------------------------------------------------------------------------------------
+          {/*  1.1 _______________________________________________________________________________________ */}
           <Titles titulo="Números Reales" idTitulo="numeros-reales" />
           <p>Los tipos números que conforman el sistema de números reales:</p>
           <b>Números Naturales: </b>{" "}
@@ -30,7 +29,7 @@ function ModuloI() {
             {" "}
             Los Números racionales se construyen al tomar razones de enteros:
           </p>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`\\( r = \\frac{m}{n} \\) `}</MathJax>
             </MathJaxContext>
@@ -41,7 +40,7 @@ function ModuloI() {
             Números que no se pueden expresar como una razón entre enteros.
             Ejemplos:
           </p>
-          <p style={{ marginLeft: "25px" }}>
+          <p style={{ fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>
                 {
@@ -61,14 +60,23 @@ function ModuloI() {
             escribimos a+b=b+a
           </p>
           <p>Cuando sumamos dos números, el orden de Adición no importa</p>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax inline>{"\\( a + b = b + a \\)"}</MathJax>
             </MathJaxContext>
           </p>
-          <Notas tituloFormula="Propiedades Conmutativas" />
-          <Notas tituloFormula="Asociativas" />
-          <Notas tituloFormula="Distributivas" />
+          <Notas
+            tituloFormula="Propiedades Conmutativas"
+            formulasMath="$$ a + b = b + a \quad \text{y} \quad ab = ba $$"
+          />
+          <Notas
+            tituloFormula="Asociativas"
+            formulasMath="$$(a + b) + c = a + (b + c)$$"
+          />
+          <Notas
+            tituloFormula="Distributivas"
+            formulasMath="$$a(b + c) = ab + ac \quad \text{y} \quad (b + c)a = ab + ac$$"
+          />
           <h3>📘 Ejemplo: Propiedades de los Números Reales</h3>
           <Videos linkVideos="https://youtu.be/m1I4sFDMwzg" />
           <Titles
@@ -88,7 +96,19 @@ function ModuloI() {
             Para combinar números reales con números negativos, usamos las
             siguientes propiedades:
           </b>
-          <Notas tituloFormula=" Propiedades de negativos" />
+          <br />
+          <p
+            style={{
+              textAlign: "center",
+              color: "#EA9216",
+              fontWeight: "bolder",
+              fontSize: "1.3em",
+              marginTop: "10px",
+            }}
+          >
+            Propiedades de los negativos
+          </p>
+          <br />
           <b>1️⃣ Multiplicación de signos iguales:</b>
           <Notas
             formulasMath={`$$ (-) \\times (-) = (+) \\quad \\text{=} \\quad (-3) \\times (-2) = +6 $$`}
@@ -210,25 +230,25 @@ function ModuloI() {
           </b>
           <Notas tituloFormula="Ejemplos" />
           <b> 1️⃣ Es menor que 7 </b>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`3 < 7 `}</MathJax>
             </MathJaxContext>
           </p>
           <b>2️⃣-2 Está a la izquierda de 5</b>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`-2 < 5 `}</MathJax>
             </MathJaxContext>
           </p>
           <b>3️⃣8 Es mayor que 1</b>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`8 > 1`}</MathJax>
             </MathJaxContext>
           </p>
           <b>4️⃣-3 es mayor o igual que -5</b>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`-3 > -5`}</MathJax>
             </MathJaxContext>
@@ -269,7 +289,7 @@ function ModuloI() {
             positiva o cero, por lo que se cumple:{" "}
           </p>
           <b>|a| ≥ 0 para todo número real a.</b>
-          <Notas tituloFormula="📘PROPIEDADES DEL VALOR ABSOLUTO" />
+          <br />
           <b>1️⃣El valor absoluto de un número siempre es positivo o cero: </b>
           <Notas formulasMath={"(|5| = 5 ) (|0| = 0)"} />
           <b>2️⃣ Propiedad multiplicativa: </b>
@@ -278,8 +298,7 @@ function ModuloI() {
           <Notas formulasMath={" (|a ÷ b| = |a| ÷ |b| (con b ≠ 0)"} />
           <h3>Ejemplo: Valor absoluto</h3>
           <Videos linkVideos="https://youtu.be/AwXIzQGXFSU" />
-          // Sección 1.2
-          ___________________________________________________________________________
+          {/*  1.2 _______________________________________________________________________________________ */}
           <Titles
             titulo="Exponentes y radicales"
             idTitulo="exponentes-radicales"
@@ -333,8 +352,7 @@ function ModuloI() {
             Explicación audiovisual:
           </p>
           <Videos linkVideos="https://youtu.be/I2OMvaZzqmM" />
-          //Sección 1.3
-          ------------------------------------------------------------------------------------------------------------
+          {/*  1.3 _______________________________________________________________________________________ */}
           <Titles
             titulo="Expresiones Algebraicas"
             idTitulo="expresiones-algebraicas"
@@ -402,8 +420,7 @@ function ModuloI() {
           </MathJaxContext>
           <h3>Ejemplo:</h3>
           <Videos linkVideos="https://youtu.be/fCJ1v8aEKUc" />
-          //Sección 1.4
-          ------------------------------------------------------------------------------------------------------------
+          {/*  1.4 _______________________________________________________________________________________ */}
           <Titles
             titulo="Expresiones Racionales"
             idTitulo="expresiones-racionales"
@@ -415,7 +432,7 @@ function ModuloI() {
           </p>
           <MathJaxContext>
             <MathJax
-              style={{ fontSize: "1.3em" }}
+              style={{ fontSize: "1.1em" }}
             >{`$$ \\frac{x^3 - x}{x^2 - 5x + 6} $$`}</MathJax>
           </MathJaxContext>
           <Titles
@@ -506,13 +523,12 @@ function ModuloI() {
           </p>
           <MathJaxContext>
             <MathJax
-              style={{ fontSize: "1.3em" }}
+              style={{ fontSize: "1.1em" }}
             >{`$$ (A + B\\sqrt{C})(A - B\\sqrt{C}) = A^2 - B^2C $$`}</MathJax>
           </MathJaxContext>
           <b>Ejemplo:</b>
           <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
-          // sección 1.5
-          ________________________________________________________________________________
+          {/*  1.5 _______________________________________________________________________________________ */}
           <Titles titulo="¿Qué es una ecuación?" idTitulo="que-es-ecuacion" />
           <Parrafos parrafo="Una ecuación es una igualdad matemática que contiene una o más variables (también llamadas incógnitas), y cuyo objetivo principal es encontrar el valor o los valores que hacen verdadera dicha igualdad. Ambos lados de la ecuación están separados por un signo igual (=) y deben tener el mismo valor una vez que se resuelven." />
           <Parrafos parrafo="Resolver una ecuación significa encontrar el valor de la variable que satisface esa igualdad." />
@@ -575,8 +591,7 @@ function ModuloI() {
             </MathJax>
           </MathJaxContext>
           <Videos linkVideos="https://youtu.be/9xEb4KgHEgU" />
-          // 1.6
-          _________________________________________________________________________________
+          {/*  1.6 _______________________________________________________________________________________ */}
           <Titles
             titulo="Modelado con Ecuaciones"
             idTitulo="modelado-ecuaciones"
@@ -612,20 +627,20 @@ function ModuloI() {
           </p>
           <MathJaxContext>
             <MathJax
-              style={{ fontSize: "1.3em" }}
+              style={{ fontSize: "1.1em" }}
             >{`$$ d = v \\cdot t $$`}</MathJax>
           </MathJaxContext>
           <p>
             Sustituyendo los valores conocidos: <br />
             <MathJaxContext>
               <MathJax
-                style={{ fontSize: "1.3em" }}
+                style={{ fontSize: "1.1em" }}
               >{`$$ 180 = 60 \\cdot t $$`}</MathJax>
             </MathJaxContext>
             Dividiendo ambos lados entre 60: <br />
             <MathJaxContext>
               <MathJax
-                style={{ fontSize: "1.3em" }}
+                style={{ fontSize: "1.1em" }}
               >{`$$ t = \\frac{180}{60} = 3 \\text{ horas} $$`}</MathJax>
             </MathJaxContext>
           </p>
@@ -635,32 +650,32 @@ function ModuloI() {
             $100 por día. Si se venden x camisetas, el ingreso total es:
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>{`$$ I = 20x $$`}</MathJax>
+            <MathJax style={{ fontSize: "1.1em" }}>{`$$ I = 20x $$`}</MathJax>
           </MathJaxContext>
           <p>
             El costo total es: <br />
             <MathJaxContext>
               <MathJax
-                style={{ fontSize: "1.3em" }}
+                style={{ fontSize: "1.1em" }}
               >{`$$ C = 100 + 10x $$`}</MathJax>
             </MathJaxContext>
             Para encontrar el punto de equilibrio (donde ingreso iguala costo):{" "}
             <br />
             <MathJaxContext>
               <MathJax
-                style={{ fontSize: "1.3em" }}
+                style={{ fontSize: "1.1em" }}
               >{`$$ 20x = 100 + 10x $$`}</MathJax>
             </MathJaxContext>
             Restando 10x de ambos lados: <br />
             <MathJaxContext>
               <MathJax
-                style={{ fontSize: "1.3em" }}
+                style={{ fontSize: "1.1em" }}
               >{`$$ 10x = 100 $$`}</MathJax>
             </MathJaxContext>
             Dividiendo entre 10: <br />
             <MathJaxContext>
               <MathJax
-                style={{ fontSize: "1.3em" }}
+                style={{ fontSize: "1.1em" }}
               >{`$$ x = 10 \\text{ camisetas} $$`}</MathJax>
             </MathJaxContext>
           </p>

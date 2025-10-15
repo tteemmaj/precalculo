@@ -9,7 +9,7 @@ function Nav() {
         <img src={Logo} />
       </div>
       <div className="divDer">
-        <ul>
+        <ul className="font-weight-nav">
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/moduloI">Módulo I</Link></li>
           <li><Link to="/moduloII">Módulo II</Link></li>

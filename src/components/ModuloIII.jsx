@@ -14,9 +14,7 @@ function ModuloIII() {
           <SideBarModIII />
         </div>
         <div className="contenidosDiv">
-          /* 2.1
-          _________________________________________________________________________
-          */
+          {/*  2.1 _______________________________________________________________________________________ */}
           <Titles titulo="¿QUÉ ES UNA FUNCIÓN? " idTitulo="que-es-funcion" />
           <p>
             Una función es una regla. Para hablar de una función, es necesario
@@ -29,12 +27,14 @@ function ModuloIII() {
             En la definición de una función, la variable independiente x
             desempeña el papel de un símbolo o dígito.
           </p>
+          <p>
+            Sea f(x)=3x 2 +x−5. Evalúe cada valor de la función. (a) f(−2) (b)
+            f(0) (c) f(4) (d) f(1/2). Para evaluar f en un número, sustituimos
+            el número por x en la definición de f.
+          </p>
           <Notas
             tituloFormula="Ejemplo:"
-            formulasMath={`Sea f (x) =3x^2 + x-5. Evalúe cada valor de la función.
-(a) f(-2)                        (b) f(0)                       (c) f(4)           (d) f(1/2)
-Para evaluar f en un número, sustituimos el número por x en la definición de f.
-`}
+            formulasMath={`$$f(x) = 3x^2 + x-5$$`}
           />
           <b>Dominio de una función</b>
           <p>
@@ -44,7 +44,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
           </p>
           <Notas
             tituloFormula="Ejemplo:"
-            formulasMath={`F(x)= √(1/(x-4))          g(x)=√x     `}
+            formulasMath="$$F(x) = \sqrt{\frac{1}{x-4}} \quad \text{y} \quad g(x) = \sqrt{x}$$"
           />
           <b>Cuatro formas de representar una función</b>
           <Notas
@@ -54,9 +54,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
 •	visualmente (por una gráfica)
 •	numéricamente (por una tabla de valores)`}
           />
-          /* Sección 2.2
-          ________________________________________________________________________________
-          */
+          {/*  2.2 _______________________________________________________________________________________ */}
           <Titles titulo="Graficas de funciones" idTitulo="grafica-funciones" />
           <p>
             Para graficar una función f, localizamos los puntos (x, f (x)) en un
@@ -99,7 +97,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             Cualquier ecuación con las variables X, y, Y defi ne una relación
             entre estas variables. Por ejemplo, la ecuación
           </p>
-          <p style={{ textAlign: "center", fontSize: "1.3em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax inline>{"\\( y^2 - x^2 = 0 \\)"}</MathJax>
             </MathJaxContext>
@@ -108,7 +106,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             define una relación entre Y y X. ¿Esta ecuación define a y como
             función de x? Para saberlo, despejamos Y y obtenemos
           </p>
-          /* Sección 2.5 ------------------------------------------------- */
+          {/*  2.5 _______________________________________________________________________________________ */}
           <Titles
             titulo="Transformación de funciones"
             idTitulo="transformacion-funciones"
@@ -271,7 +269,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
               <MathJax>{`$$ f \\text{ es } \\mathbf{impar} \\text{ si } f(-x) = -f(x) \\text{ para toda } x \\text{ en el dominio de } f. $$`}</MathJax>
             </MathJaxContext>
           </p>
-          /*6.2 ____________________________________________________________*/
+          {/*  6.2 _______________________________________________________________________________________ */}
           <Titles
             titulo="Trigonometría de triángulos rectángulos"
             idTitulo="trigonometria-triangulos"
@@ -329,7 +327,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
           <b>Modelado de situaciones reales</b>
           <Parrafos parrafo="Las razones trigonométricas permiten representar fenómenos reales, como la altura de un objeto, la pendiente de una rampa, o la distancia entre dos puntos." />
           <Videos linkVideos="https://youtu.be/eQNixZah68o" />
-          /* 6.3 ________________________________________________________ */
+          {/*  6.3 _______________________________________________________________________________________ */}
           <Titles
             titulo="Funciones Trigonométricas de Ángulos"
             idTitulo="funciones-angulos"
@@ -349,7 +347,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             trigonométricas se definen como:
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$
               \\sin(\\theta) = \\frac{\\text{cateto opuesto}}{\\text{hipotenusa}}, \\quad
               \\cos(\\theta) = \\frac{\\text{cateto adyacente}}{\\text{hipotenusa}}, \\quad
@@ -358,7 +356,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             </MathJax>
           </MathJaxContext>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$
               \\csc(\\theta) = \\frac{\\text{hipotenusa}}{\\text{cateto opuesto}}, \\quad
               \\sec(\\theta) = \\frac{\\text{hipotenusa}}{\\text{cateto adyacente}}, \\quad
@@ -373,14 +371,14 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             las funciones trigonométricas de θ:
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$
               \\sin(\\theta) = \\frac{3}{5}, \\quad \\cos(\\theta) = \\frac{4}{5}, \\quad \\tan(\\theta) = \\frac{3}{4}
               $$`}
             </MathJax>
           </MathJaxContext>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$
               \\csc(\\theta) = \\frac{5}{3}, \\quad \\sec(\\theta) = \\frac{5}{4}, \\quad \\cot(\\theta) = \\frac{4}{3}
               $$`}
@@ -397,7 +395,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
           />
           <h3>📘 Ejemplo: Funciones trigonométricas</h3>
           <Videos linkVideos="https://youtu.be/Pb7duZ5kt3Q" />
-          /* 6.4 _________________________________________________________ */
+          {/*  6.4 _______________________________________________________________________________________ */}
           <Titles
             titulo="Funciones Trigonométricas Inversas"
             idTitulo="funciones-inversas"
@@ -419,7 +417,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
           <b>Ejemplo 2: Uso de la función inversa</b>
           <p>Si sin(θ) = 0.5, encuentra θ. Usamos la función inversa:</p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ \\theta = \\sin^{-1}(0.5) = \\frac{\\pi}{6} \\text{ radianes (o 30°)} $$`}
             </MathJax>
           </MathJaxContext>
@@ -427,8 +425,17 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             Nota: La solución está en el rango [-π/2, π/2], que es el rango de
             sin⁻¹.
           </p>
-          <Notas tituloFormula="📘 Propiedades de funciones inversas" />
-          <b>1️⃣ Propiedad inversa:</b>
+          <p
+            style={{
+              fontSize: "1.3em",
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            Propiedades de funciones inversas
+          </p>
+          <br />
+          <p style={{ fontWeight: "bold" }}>1️⃣ Propiedad inversa:</p>
           <Notas
             formulasMath={`$$ \\sin(\\sin^{-1}(x)) = x \\text{ para } x \\in [-1, 1], \\quad \\sin^{-1}(\\sin(\\theta)) = \\theta \\text{ para } \\theta \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}] $$`}
           />
@@ -445,7 +452,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             triángulo rectángulo:
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ a^2 + b^2 = c^2 $$`}
             </MathJax>
           </MathJaxContext>
@@ -461,12 +468,12 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             Usamos el teorema de Pitágoras:
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ 6^2 + b^2 = 10^2 $$`}
             </MathJax>
           </MathJaxContext>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ 36 + b^2 = 100 \\implies b^2 = 64 \\implies b = 8 \\text{ cm} $$`}
             </MathJax>
           </MathJaxContext>
@@ -476,12 +483,12 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             Usamos el coseno para el ángulo θ opuesto al cateto de 6 cm:
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ \\cos(\\theta) = \\frac{\\text{adyacente}}{\\text{hipotenusa}} = \\frac{8}{10} = 0.8 $$`}
             </MathJax>
           </MathJaxContext>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ \\theta = \\cos^{-1}(0.8) \\approx 36.87^\\circ $$`}
             </MathJax>
           </MathJaxContext>
@@ -491,7 +498,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             La suma de los ángulos agudos en un triángulo rectángulo es 90°:
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ 90^\\circ - 36.87^\\circ \\approx 53.13^\\circ $$`}
             </MathJax>
           </MathJaxContext>
@@ -512,27 +519,26 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
           </p>
           <p>Usamos la tangente:</p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ \\tan(30^\\circ) = \\frac{h}{50} $$`}
             </MathJax>
           </MathJaxContext>
           <p>
             Sabemos que :
             <MathJaxContext>
-              <MathJax style={{ fontSize: "1.3em" }}>
+              <MathJax style={{ fontSize: "1.1em" }}>
                 {`$$ ( \\tan(30^\\circ) = \\frac{\\sqrt{3}}{3} \\approx 0.577 ) $$`}
               </MathJax>
             </MathJaxContext>
           </p>
           <MathJaxContext>
-            <MathJax style={{ fontSize: "1.3em" }}>
+            <MathJax style={{ fontSize: "1.1em" }}>
               {`$$ 0.577 = \\frac{h}{50} \\implies h = 50 \\cdot 0.577 \\approx 28.85 \\text{ m} $$`}
             </MathJax>
           </MathJaxContext>
           <h3>📘 Ejemplo: Aplicación práctica en trigonometría</h3>
           <Videos linkVideos="https://youtu.be/8ZwRTj-0vF0" />
-          /* 6.5
-          _________________________________________________________________ */
+          {/*  6.5 _______________________________________________________________________________________ */}
           <hr style={{ borderTop: "1px solid #ccc", margin: "1em 0" }} />
           <Titles titulo="Ley de Senos" idTitulo="ley-senos" />
           <p>
@@ -540,7 +546,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             entre la longitud de un lado y el seno del ángulo opuesto es
             constante. Esto significa que:
           </p>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`\\( \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} \\)`}</MathJax>
             </MathJaxContext>
@@ -587,7 +593,7 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
             tengan sentido según la geometría del triángulo.
           </p>
           <Videos linkVideos="https://youtu.be/e2_WDo5yK_Q" />
-          /* 6.6 ___________________________________________________ */
+          {/*  6.6 _______________________________________________________________________________________ */}
           <hr style={{ borderTop: "1px solid #ccc", margin: "1em 0" }} />
           <Titles titulo="Ley de Cosenos" idTitulo="ley-cosenos" />
           <p>
@@ -603,13 +609,13 @@ Para evaluar f en un número, sustituimos el número por x en la definición de 
               Conocemos los tres lados y queremos calcular un ángulo (SSS).
             </li>
           </ul>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`\\( c^2 = a^2 + b^2 - 2ab \\cdot \\cos C \\)`}</MathJax>
             </MathJaxContext>
           </p>
           <p>También podemos despejar el ángulo si conocemos los tres lados:</p>
-          <p style={{ textAlign: "center", fontSize: "1.5em" }}>
+          <p style={{ textAlign: "center", fontSize: "1.1em" }}>
             <MathJaxContext>
               <MathJax>{`\\( \\cos C = \\frac{a^2 + b^2 - c^2}{2ab} \\)`}</MathJax>
             </MathJaxContext>
