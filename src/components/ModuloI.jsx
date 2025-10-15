@@ -66,7 +66,7 @@ function ModuloI() {
               <MathJax inline>{"\\( a + b = b + a \\)"}</MathJax>
             </MathJaxContext>
           </p>
-          <Notas tituloFormula="📘Propiedades Conmutativas" />
+          <Notas tituloFormula="Propiedades Conmutativas" />
           <Notas tituloFormula="Asociativas" />
           <Notas tituloFormula="Distributivas" />
           <h3>📘 Ejemplo: Propiedades de los Números Reales</h3>
@@ -85,10 +85,10 @@ function ModuloI() {
           </p>
           <b>
             {" "}
-            🔹Para combinar números reales con números negativos, usamos las
+            Para combinar números reales con números negativos, usamos las
             siguientes propiedades:
           </b>
-          <Notas tituloFormula=" 📘Propiedades de negativos" />
+          <Notas tituloFormula=" Propiedades de negativos" />
           <b>1️⃣ Multiplicación de signos iguales:</b>
           <Notas
             formulasMath={`$$ (-) \\times (-) = (+) \\quad \\text{=} \\quad (-3) \\times (-2) = +6 $$`}
@@ -117,7 +117,7 @@ function ModuloI() {
           <b>7️⃣ Resta de números negativos:</b>
           <p>Restar es sumar el opuesto.</p>
           <Notas formulasMath={`$$ (-7) - (-3) = (-7) + (3) = -4 $$`} />
-          <h3>📘 Ejemplo:Adición y sustracción</h3>
+          <h3> Ejemplo:Adición y sustracción</h3>
           <Videos linkVideos="https://youtube.com/shorts/UDVyBsnycrg" />
           <Titles
             titulo="Multiplicación y división"
@@ -193,7 +193,7 @@ function ModuloI() {
               "$$ \\text{Si } \\frac{a}{b} = \\frac{c}{d}, \\text{ entonces } ad = bc \\quad \\frac{2}{3} = \\frac{6}{9}, \\text{ así que } 2\\cdot 9 = 3\\cdot 6 $$"
             }
           />
-          <h3>📘 Ejemplo: Multiplicación y división</h3>
+          <h3>Ejemplo: Multiplicación y división</h3>
           <Videos linkVideos="https://youtube.com/shorts/4Y5_-l8D_E0" />
           <Titles titulo="La recta real" idTitulo="recta-real" />
           <p>
@@ -205,10 +205,10 @@ function ModuloI() {
             número real puede verse como un punto en la recta real.
           </p>
           <b>
-            🔹Si a&lt;b, significa que a está a la izquierda de b (o que b – a
-            es positivo). Si b&gt;a, significa que b está a la derecha de a.
+            Si a&lt;b, significa que a está a la izquierda de b (o que b – a es
+            positivo). Si b&gt;a, significa que b está a la derecha de a.
           </b>
-          <Notas tituloFormula="📘Ejemplos" />
+          <Notas tituloFormula="Ejemplos" />
           <b> 1️⃣ Es menor que 7 </b>
           <p style={{ textAlign: "center", fontSize: "1.5em" }}>
             <MathJaxContext>
@@ -233,7 +233,7 @@ function ModuloI() {
               <MathJax>{`-3 > -5`}</MathJax>
             </MathJaxContext>
           </p>
-          <h3>📘 Ejemplo: La recta real</h3>
+          <h3>Ejemplo: La recta real</h3>
           <Videos linkVideos="https://youtu.be/XkuxGHy_1co" />
           <Titles
             titulo="Intervalos en la recta real"
@@ -245,7 +245,7 @@ function ModuloI() {
             pertenece: b ∉ S
           </p>
           <b>
-            🔹Los conjuntos se pueden escribir: por extensión, listando los
+            Los conjuntos se pueden escribir: por extensión, listando los
             elementos dentro de llaves &lbrace; &rbrace;
           </b>
           <Notas tituloFormula="📗 Intervalos en la recta real" />
@@ -260,7 +260,7 @@ function ModuloI() {
           />
           <b>5️⃣Intervalos infinitos</b>
           <Notas formulasMath={" [ a, ∞)  = { x ∈ ℝ | x ≥ a }  "} />
-          <h3>📘 Ejemplo: Conjuntos e intervalos</h3>
+          <h3>Ejemplo: Conjuntos e intervalos</h3>
           <Videos linkVideos="https://youtube.com/shorts/4Y5_-l8D_E0" />
           <Titles titulo="Valor absoluto" idTitulo="valor-absoluto" />
           <p>
@@ -268,7 +268,7 @@ function ModuloI() {
             distancia entre a y 0 en la recta numérica. Esa distancia siempre es
             positiva o cero, por lo que se cumple:{" "}
           </p>
-          <b>🔹 |a| ≥ 0 para todo número real a.</b>
+          <b>|a| ≥ 0 para todo número real a.</b>
           <Notas tituloFormula="📘PROPIEDADES DEL VALOR ABSOLUTO" />
           <b>1️⃣El valor absoluto de un número siempre es positivo o cero: </b>
           <Notas formulasMath={"(|5| = 5 ) (|0| = 0)"} />
@@ -276,7 +276,7 @@ function ModuloI() {
           <Notas formulasMath={"(|a × b| = |a| × |b|)"} />
           <b>3️⃣ Propiedad del cociente: </b>
           <Notas formulasMath={" (|a ÷ b| = |a| ÷ |b| (con b ≠ 0)"} />
-          <h3>📘 Ejemplo: Valor absoluto</h3>
+          <h3>Ejemplo: Valor absoluto</h3>
           <Videos linkVideos="https://youtu.be/AwXIzQGXFSU" />
           // Sección 1.2
           ___________________________________________________________________________
