@@ -7,7 +7,12 @@ import Videos from "../components/Videos.jsx";
 import Notas from "../components/Notes.jsx";
 import { MathJaxContext, MathJax } from "better-react-mathjax";
 
+
+
+
+
 function ModuloI() {
+
   return (
     <>
       <div className="main-container">
@@ -253,8 +258,6 @@ function ModuloI() {
               <MathJax>{`-3 > -5`}</MathJax>
             </MathJaxContext>
           </p>
-          <h3>Ejemplo: La recta real</h3>
-          <Videos linkVideos="https://youtu.be/XkuxGHy_1co" />
           <Titles
             titulo="Intervalos en la recta real"
             idTitulo="intervalos-recta-real"
@@ -348,10 +351,7 @@ function ModuloI() {
           </p>
           <br />
           <br />
-          <p style={{ marginTop: "0.5em", fontWeight: "bold" }}>
-            Explicación audiovisual:
-          </p>
-          <Videos linkVideos="https://youtu.be/I2OMvaZzqmM" />
+          <Videos linkVideos="https://youtu.be/RCnAlwNFiI8" />
           {/*  1.3 _______________________________________________________________________________________ */}
           <Titles
             titulo="Expresiones Algebraicas"
@@ -480,7 +480,7 @@ function ModuloI() {
             formulasMath={`$$ \\frac{A}{B} \\div \\frac{C}{D} = \\frac{A}{B} \\cdot \\frac{D}{C} $$`}
           />
           <b>Ejemplo:</b>
-          <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
+          <Videos linkVideos="https://youtu.be/2CKMRp4c-n0" />
           <Titles
             titulo="Suma y resta de expresiones racionales"
             idTitulo="suma-resta-racionales"
@@ -493,7 +493,7 @@ function ModuloI() {
             formulasMath={`$$ \\frac{A}{C} + \\frac{B}{C} = \\frac{A+B}{C} $$`}
           />
           <b>Ejemplo:</b>
-          <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
+          <Videos linkVideos="https://youtu.be/HjRYrWHJ3gw" />
           <Titles
             titulo="Fracciones compuestas"
             idTitulo="fracciones-compuestas"
@@ -503,7 +503,47 @@ function ModuloI() {
             expresiones fraccionarias
           </p>
           <b>Ejemplo:</b>
-          <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
+          <MathJaxContext>
+            <MathJax
+              style={{ fontSize: "1.1em" }}
+            >{`$$ \\frac{\\frac{1}{1+x+h} - \\frac{1}{1+x}}{h} $$`}</MathJax>
+          </MathJaxContext>
+          <p>
+            Combinamos las fracciones en el numerador sobre un denominador
+            común:
+          </p>
+          <MathJaxContext>
+            <MathJax
+              style={{ fontSize: "1.1em" }}
+            >{`$$ \\frac{\\frac{1 \\cdot (1+x) - 1 \\cdot (1+x+h)}{(1+x+h)(1+x)}}{h} $$`}</MathJax>
+          </MathJaxContext>
+          <p>
+            Distribuimos el signo negativo y cancelamos términos en el
+            numerador:
+          </p>
+          <MathJaxContext>
+            <MathJax
+              style={{ fontSize: "1.1em" }}
+            >{`$$ \\frac{\\frac{1+x - 1 - x - h}{(1+x+h)(1+x)}}{h} $$`}</MathJax>
+          </MathJaxContext>
+          <p>El numerador se simplifica a -h:</p>
+          <MathJaxContext>
+            <MathJax
+              style={{ fontSize: "1.1em" }}
+            >{`$$ \\frac{\\frac{-h}{(1+x+h)(1+x)}}{h} $$`}</MathJax>
+          </MathJaxContext>
+          <p>Convertimos la división por h en una multiplicación por 1/h</p>
+          <MathJaxContext>
+            <MathJax
+              style={{ fontSize: "1.1em" }}
+            >{`$$ \\frac{-h}{(1+x+h)(1+x)} \\cdot \\frac{1}{h} $$`}</MathJax>
+          </MathJaxContext>
+          <p>Cancelamos el factor h para obtener el resultado final:</p>
+          <MathJaxContext>
+            <MathJax
+              style={{ fontSize: "1.1em" }}
+            >{`$$ \\frac{-1}{(1+x+h)(1+x)} $$`}</MathJax>
+          </MathJaxContext>
           <Titles
             titulo="Racionalizaciòn del denominador o el numerador"
             idTitulo="racionalizacion"
@@ -527,7 +567,7 @@ function ModuloI() {
             >{`$$ (A + B\\sqrt{C})(A - B\\sqrt{C}) = A^2 - B^2C $$`}</MathJax>
           </MathJaxContext>
           <b>Ejemplo:</b>
-          <Videos linkVideos="https://youtu.be/uXCtOk5dedI" />
+          <Videos linkVideos="https://youtu.be/fdRaWN7StdQ" />
           {/*  1.5 _______________________________________________________________________________________ */}
           <Titles titulo="¿Qué es una ecuación?" idTitulo="que-es-ecuacion" />
           <Parrafos parrafo="Una ecuación es una igualdad matemática que contiene una o más variables (también llamadas incógnitas), y cuyo objetivo principal es encontrar el valor o los valores que hacen verdadera dicha igualdad. Ambos lados de la ecuación están separados por un signo igual (=) y deben tener el mismo valor una vez que se resuelven." />
@@ -680,7 +720,7 @@ function ModuloI() {
             </MathJaxContext>
           </p>
           <h3>📘 Ejemplo: Modelado con ecuaciones</h3>
-          <Videos linkVideos="https://youtu.be/qqdaQlGZg8o" />
+          <Videos linkVideos="https://youtu.be/QF3hFKnoIRs" />
         </div>
       </div>
     </>

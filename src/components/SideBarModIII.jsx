@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/SideBar.css";
 
-// 🎯 Definimos el temario con IDs claros para el scroll
 const sections = [
   { title: "¿Qué es una función?", id: "que-es-funcion" },
   { title: "Gráfica de funciones", id: "grafica-funciones" },
@@ -45,15 +44,12 @@ const sections = [
 ];
 
 const SideBarModIII = () => {
-  // Inicializamos el estado activo con el ID que corresponde a la clase 'active' inicial.
   const initialActiveId = "grafica-tramos";
   const [activeSectionId, setActiveSectionId] = useState(initialActiveId);
 
   const handleClick = (id) => {
-    // 1. Establecer el ID activo para cambiar la clase CSS
     setActiveSectionId(id);
 
-    // 2. Realizar el desplazamiento suave al elemento de la documentación
     const targetElement = document.getElementById(id);
 
     if (targetElement) {
@@ -66,14 +62,13 @@ const SideBarModIII = () => {
 
   return (
     <div className="card">
-      <span>In this article</span>
+      <span>Temario</span>
       <div className="card__container">
         {sections.map((section) => (
           <p
             key={section.id}
-            // La clase 'active' se aplica si el ID del estado coincide
             className={`element ${activeSectionId === section.id ? "active" : ""}`}
-            onClick={() => handleClick(section.id)} // Manejar el clic y el scroll
+            onClick={() => handleClick(section.id)}
           >
             {section.title}
           </p>

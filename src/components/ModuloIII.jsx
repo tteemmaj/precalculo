@@ -54,6 +54,7 @@ function ModuloIII() {
 •	visualmente (por una gráfica)
 •	numéricamente (por una tabla de valores)`}
           />
+          <Videos linkVideos="https://youtu.be/UE9gWYYlY1Q" />
           {/*  2.2 _______________________________________________________________________________________ */}
           <Titles titulo="Graficas de funciones" idTitulo="grafica-funciones" />
           <p>
@@ -106,6 +107,7 @@ function ModuloIII() {
             define una relación entre Y y X. ¿Esta ecuación define a y como
             función de x? Para saberlo, despejamos Y y obtenemos
           </p>
+          <Videos linkVideos="https://youtube.com/shorts/eMeIjabBtY4?si=b0n99jgH7OWWfHv0" />
           {/*  2.5 _______________________________________________________________________________________ */}
           <Titles
             titulo="Transformación de funciones"
@@ -269,6 +271,7 @@ function ModuloIII() {
               <MathJax>{`$$ f \\text{ es } \\mathbf{impar} \\text{ si } f(-x) = -f(x) \\text{ para toda } x \\text{ en el dominio de } f. $$`}</MathJax>
             </MathJaxContext>
           </p>
+          <Videos linkVideos="https://youtu.be/em2JjUu4mdg" />
           {/*  6.2 _______________________________________________________________________________________ */}
           <Titles
             titulo="Trigonometría de triángulos rectángulos"
@@ -394,7 +397,7 @@ function ModuloIII() {
             formulasMath={`$$ \\tan(\\theta) = \\frac{\\sin(\\theta)}{\\cos(\\theta)}, \\quad \\cot(\\theta) = \\frac{1}{\\tan(\\theta)} $$`}
           />
           <h3>📘 Ejemplo: Funciones trigonométricas</h3>
-          <Videos linkVideos="https://youtu.be/Pb7duZ5kt3Q" />
+          <Videos linkVideos="https://youtu.be/Cwhk39YxZEQ" />
           {/*  6.4 _______________________________________________________________________________________ */}
           <Titles
             titulo="Funciones Trigonométricas Inversas"
@@ -440,7 +443,7 @@ function ModuloIII() {
             formulasMath={`$$ \\sin(\\sin^{-1}(x)) = x \\text{ para } x \\in [-1, 1], \\quad \\sin^{-1}(\\sin(\\theta)) = \\theta \\text{ para } \\theta \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}] $$`}
           />
           <h3>📘 Ejemplo: Funciones trigonométricas inversas</h3>
-          <Videos linkVideos="https://youtu.be/6a0bOviAoQA" />
+          <Videos linkVideos="https://youtu.be/aLPPzlc0rsg" />
           <Titles
             titulo="Triángulos Rectángulos y Trigonometría"
             idTitulo="triangulos-rectangulos-trigonometria"
@@ -502,8 +505,6 @@ function ModuloIII() {
               {`$$ 90^\\circ - 36.87^\\circ \\approx 53.13^\\circ $$`}
             </MathJax>
           </MathJaxContext>
-          <h3>📘 Ejemplo: Resolución de triángulos rectángulos</h3>
-          <Videos linkVideos="https://youtu.be/9e1qN6vE4fM" />
           <b>Aplicación práctica:</b>
           <p>
             La trigonometría en triángulos rectángulos se usa en campos como la
@@ -536,8 +537,6 @@ function ModuloIII() {
               {`$$ 0.577 = \\frac{h}{50} \\implies h = 50 \\cdot 0.577 \\approx 28.85 \\text{ m} $$`}
             </MathJax>
           </MathJaxContext>
-          <h3>📘 Ejemplo: Aplicación práctica en trigonometría</h3>
-          <Videos linkVideos="https://youtu.be/8ZwRTj-0vF0" />
           {/*  6.5 _______________________________________________________________________________________ */}
           <hr style={{ borderTop: "1px solid #ccc", margin: "1em 0" }} />
           <Titles titulo="Ley de Senos" idTitulo="ley-senos" />
@@ -592,7 +591,6 @@ function ModuloIII() {
             Siempre verifica que los ángulos sumen 180° y que los resultados
             tengan sentido según la geometría del triángulo.
           </p>
-          <Videos linkVideos="https://youtu.be/e2_WDo5yK_Q" />
           {/*  6.6 _______________________________________________________________________________________ */}
           <hr style={{ borderTop: "1px solid #ccc", margin: "1em 0" }} />
           <Titles titulo="Ley de Cosenos" idTitulo="ley-cosenos" />
@@ -639,7 +637,7 @@ function ModuloIII() {
             recuerda que la Ley de Cosenos generaliza el Teorema de Pitágoras
             cuando el ángulo es de 90°.
           </p>
-          <Videos linkVideos="https://youtu.be/65RP6V0hsy4://youtu.be/dQw4w9WgXcQ" />
+          <Videos linkVideos="https://youtu.be/-GxlWaGfafk" />
         </div>
       </div>
     </>

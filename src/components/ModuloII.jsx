@@ -74,8 +74,6 @@ function ModuloI() {
           <Notas
             formulasMath={" x^2 - 5x + 6 > 0 → (x-2)(x-3) > 0 → x < 2 o x > 3"}
           />
-          <h3>Ejemplo: Solución de desigualdades no lineales.</h3>
-          <Videos linkVideos="https://youtu.be/O75Nsbws_CQ?si=L6_eQHsStQpDo6E5" />
           {/*  1.8 _______________________________________________________________________________________ */}
           <Titles
             titulo="Geometría de coordenadas "

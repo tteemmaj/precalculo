@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/SideBar.css";
 
-// Definimos el temario completo con un 'title' para mostrar y un 'id' para el scroll.
 const sections = [
   { title: "Números Reales", id: "numeros-reales" },
   { title: "Propiedades de los Números Reales", id: "propiedades-reales" },
@@ -44,23 +43,19 @@ const sections = [
   { title: "Modelado con Ecuaciones", id: "modelado-ecuaciones" },
 ];
 
-// Usamos PascalCase para la convención de componentes de React
 const SideBar = () => {
-  // Inicializamos el estado con la sección que quieres que esté activa por defecto (ej. 'Adición y sustracción')
   const initialActiveId = "adicion-sustraccion";
   const [activeSectionId, setActiveSectionId] = useState(initialActiveId);
 
   const handleClick = (id) => {
-    // 1. Actualiza el estado para cambiar la clase 'active'
     setActiveSectionId(id);
 
-    // 2. Realiza el desplazamiento suave a la sección de contenido
     const targetElement = document.getElementById(id);
 
     if (targetElement) {
       targetElement.scrollIntoView({
         behavior: "smooth",
-        block: "start", // Muestra el encabezado en la parte superior de la ventana
+        block: "start",
       });
     }
   };
@@ -72,9 +67,8 @@ const SideBar = () => {
         {sections.map((section) => (
           <p
             key={section.id}
-            // Aplica la clase 'active' si el ID coincide con el estado actual
             className={`element ${activeSectionId === section.id ? "active" : ""}`}
-            onClick={() => handleClick(section.id)} // Llama a la función al hacer clic
+            onClick={() => handleClick(section.id)}
           >
             {section.title}
           </p>

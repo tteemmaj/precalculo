@@ -35,3 +35,9 @@
   display: none;
   overscroll-behavior-y: none;
 }
+
+@media (max-width: 768px) {
+  .barDiv {
+    display: none; 
+  }
+}
