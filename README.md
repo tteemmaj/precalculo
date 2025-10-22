@@ -1,28 +1,20 @@
 # 📚 Proyecto Módulos de Estudio
 
-Este repositorio contiene la interfaz de usuario (UI) para una aplicación web diseñada para la visualización y navegación de contenido modular, enfocada en temario académico.
+Este repositorio contiene la interfaz de usuario (UI) para una aplicación web diseñada por nuestro grupo para la visualización y navegación de contenido modular, enfocada en temario académico del curso de Precálculo de la Universidad Mariano Gálvez de Guatemala.
 
 ## 🚀 Tecnologías
 
-El proyecto está construido usando las siguientes tecnologías:
+El proyecto está construido usando las siguientes dependencias clave:
 
-* **React:** Para la construcción de componentes.
-* **React Router Dom:** Para la gestión de rutas y navegación.
-* **CSS (Puro):** Para los estilos, incluyendo el diseño responsive.
-
-***
-
-## ⚙️ Componentes Clave
-
-### 1. Nav (Barra de Navegación)
-
-* **Responsividad:** Implementa un menú de navegación horizontal en escritorio y se transforma en un **menú hamburguesa** colapsable en dispositivos móviles.
-* **Logo:** El logo se ha optimizado para mantener su proporción en todos los tamaños de pantalla.
-
-### 2. SideBar (Menú Lateral de Temario)
-
-* **Función:** Facilita la navegación interna del contenido con desplazamiento suave (`scrollIntoView`).
-* **Responsividad:** Se muestra como un menú lateral de altura completa (`100vh`) en escritorio (`> 768px`) y se **oculta completamente** en móviles (`<= 768px`) para maximizar el espacio para el contenido principal.
+| Paquete | Versión | Propósito Principal |
+| :--- | :--- | :--- |
+| **`react`** | `^19.1.1` | La **biblioteca principal** para construir la interfaz de usuario. |
+| **`react-dom`** | `^19.1.1` | Proporciona los métodos específicos del DOM para interactuar con el navegador. |
+| **`react-router-dom`** | `^7.8.2` | Permite la **navegación declarativa** en tu aplicación (rutas `/moduloI`, `/moduloII`, etc.). |
+| **`better-react-mathjax`** | `^2.3.0` | Herramienta para renderizar **notación matemática** ($\LaTeX$) en componentes de React. |
+| **`react-player`** | `^3.3.3` | Un componente de React para reproducir una variedad de **URLs multimedia** (videos de YouTube, Vimeo, etc.). |
+| **Vite** | *(Dev)* | Servidor de desarrollo y bundler ultrarrápido. |
+| **CSS (Puro)** | *(Estilo)* | Para los estilos y la gestión de la responsividad. |
 
 ***
 
@@ -39,8 +31,8 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/).
 1.  **Clona el repositorio:**
 
     ```bash
-    git clone [https://github.com/tteemmaj/precalculo.git]
-    cd [precalculo]
+    git clone https://github.com/tteemmaj/precalculo.git
+    cd precalculo
     ```
 
 2.  **Instala las dependencias:**
